@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DineHero" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item>
+        -->
+        <item name="colorPrimary">@color/white</item>
+    </style>
+    <style name="Widget.Material3.BottomNavigationView." parent="Widget.Design.BottomNavigationView">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item>
+        -->
+
+    </style>
+
+    <style name="Theme.DineHero" parent="Base.Theme.DineHero" />
+</resources>

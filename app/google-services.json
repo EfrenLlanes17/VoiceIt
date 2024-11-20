@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "439120285730",
+    "project_id": "salespot-b9be9",
+    "storage_bucket": "salespot-b9be9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439120285730:android:e401afd6e96fd037907a7b",
+        "android_client_info": {
+          "package_name": "com.example.dinehero"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdHmESyAS58_1OuZlEkZiSO4sXCfbBWpI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
