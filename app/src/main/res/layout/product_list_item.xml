@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    app:cardCornerRadius="25dp"
+android:elevation="50dp"
+    android:layout_margin="30dp"
+android:backgroundTint="#FFFFFF"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:background="#FFFFFF"
+        >
+
+        <ImageView
+            android:id="@+id/txtImage"
+            android:layout_width="275dp"
+            android:layout_height="285dp"
+            android:layout_alignParentLeft="true"
+            android:src="@mipmap/buddylogoooo"
+            android:scaleType="centerCrop"
+
+               />
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_toRightOf="@id/txtImage"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:textStyle="bold"
+
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/notoserifvithkuqivariablefontwght"
+            android:text="Product Name"
+            android:textColor="@color/black"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/txtDisc"
+            android:layout_toRightOf="@id/txtImage"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/txtName"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/notoserifvithkuqivariablefontwght"
+            android:text="blah blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah"
+            android:textColor="@color/black"
+            android:textSize="23dp"/>
+
+
+
+        <TextView
+            android:id="@+id/txtPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/txtImage"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="25dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/txtImage"
+            android:text="Product Price"
+            android:fontFamily="@font/notoserifvithkuqivariablefontwght"
+            android:textColor="@color/black"
+            android:textSize="22dp"/>
+
+
+        <TextView
+            android:id="@+id/txtSeller"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Seller"
+            android:layout_below="@+id/txtImage"
+
+            android:textSize="22dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="italic"
+            android:textColor="#5E5B5B"
+            android:fontFamily="@font/notoserifvithkuqivariablefontwght"            />
+
+
+        <TextView
+            android:id="@+id/txtPercentOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/txtImage"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="60dp"
+            android:fontFamily="@font/notoserifvithkuqivariablefontwght"
+            android:text="70"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/txtPersonImage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="285dp"
+            android:layout_toLeftOf="@id/txtPercentOff"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/baseline_people_24"
+            />
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

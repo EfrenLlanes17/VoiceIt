@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".settings"
+    android:background="#FFFFFF">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="20dp"
+       android:id="@+id/line1"
+       android:layout_centerHorizontal="true"
+       android:textColor="@color/black"
+       android:text="Terms of Service
+Last Updated: [Date]
+
+"/>
+
+   <TextView
+       android:id="@+id/line2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/line1"
+       android:layout_centerInParent="true"
+       android:text=" AGREEMENT TO TERMS
+Welcome to SaleSpot. Please read these Terms of Service carefully before using our mobile application. By accessing or using the Service, you agree to comply with and be bound by these Terms. If you do not agree with these Terms, please do not use the Service.
+
+"
+       android:textColor="@color/black"
+       android:textSize="16dp" />
+
+   <TextView
+       android:id="@+id/line3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/line2"
+       android:layout_centerInParent="true"
+       android:text=" USE OF THE SERVICE
+Account: Some features of the Service may require you to create an account. You are responsible for maintaining the confidentiality of your account credentials and are solely responsible for all activities associated with your account.
+
+"
+       android:textColor="@color/black"
+       android:textSize="16dp" />
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="17dp"
+       android:id="@+id/line4"
+       android:layout_centerHorizontal="true"
+       android:layout_below="@id/line3"
+       android:textColor="@color/black"
+       android:text=" ACCEPTABLE USE
+When using the Service, you agree not to:
+Violate any applicable laws or regulations.
+Infringe upon the rights of others, including intellectual property rights.
+Engage in any illegal, abusive, or harmful behavior.
+Attempt to gain unauthorized access to the Service or any user accounts.
+Transmit viruses, malware, or any other malicious code.
+
+"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="16dp"
+       android:id="@+id/line5"
+       android:layout_centerHorizontal="true"
+       android:layout_below="@id/line4"
+       android:textColor="@color/black"
+       android:text=" YOUR CHOICES
+You do not need to take any action regarding your personal information because we do not collect any.
+
+"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="16dp"
+       android:id="@+id/line6"
+       android:layout_centerHorizontal="true"
+       android:layout_below="@id/line5"
+       android:textColor="@color/black"
+       android:text=" TERMINATION
+We reserve the right to suspend or terminate your access to the Service at our discretion, without notice, for any reason, including if you violate these Terms.
+
+   "/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="18dp"
+       android:id="@+id/line7"
+       android:layout_centerHorizontal="true"
+       android:layout_below="@id/line6"
+       android:textColor="@color/black"
+       android:text=" DISCLAIMERS
+The Service is provided on an as-is and as-available basis. We make no warranties, express or implied, regarding the Service's accuracy, reliability, or suitability for your purposes.
+
+"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="18dp"
+       android:id="@+id/line8"
+       android:layout_centerHorizontal="true"
+       android:layout_below="@id/line7"
+       android:textColor="@color/black"
+       android:text=" LIMITATION OF LIABILITY
+To the maximum extent permitted by law, we shall not be liable for any indirect, consequential, incidental, special, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly.
+
+"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="18dp"
+       android:id="@+id/line9"
+       android:layout_centerHorizontal="true"
+       android:layout_below="@id/line8"
+       android:textColor="@color/black"
+       android:text=" CHANGES TO TERMS
+We may update these Terms from time to time. The date of the last revision will be indicated at the top of this page. Please review these Terms periodically.
+
+"/>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="19dp"
+       android:id="@+id/line11"
+       android:layout_centerHorizontal="true"
+       android:layout_below="@id/line9"
+       android:textColor="@color/black"
+       android:text=" CONTACT US
+If you have any questions or concerns about this Privacy Policy, please contact us at thesalespotteam@gmail.com
+
+"/>
+
+
+</RelativeLayout>

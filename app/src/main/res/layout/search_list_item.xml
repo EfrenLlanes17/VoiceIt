@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent"
+    android:layout_width="wrap_content"
+    android:layout_height="140dp"
+    android:padding="10dp"
+    android:elevation="20dp"
+    app:cardCornerRadius="25dp"
+    android:layout_margin="10dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="500dp"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:background="#FFFFFF"
+        >
+
+        <ImageView
+            android:id="@+id/txtImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:src="@mipmap/ic_launcher_round" />
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="115dp"
+            android:fontFamily="@font/notoserifvithkuqivariablefontwght"
+
+            android:text="Product Name"
+            android:textColor="#000000"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtName"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/notoserifvithkuqivariablefontwght"
+            android:text="Product Price"
+            android:textColor="#5E5B5B"
+            android:textSize="15dp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/txtPersonImage"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="69dp"
+            android:layout_toLeftOf="@id/txtPercentOff"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/baseline_people_24"
+            />
+
+
+
+        <TextView
+            android:id="@+id/txtPercentOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_marginTop="73dp"
+            android:fontFamily="@font/notoserifvithkuqivariablefontwght"
+            android:textStyle="bold"
+            android:layout_marginRight="50dp"
+            android:layout_alignParentRight="true"
+            android:text="70%"
+
+            android:textColor="#000000"
+            android:textSize="19dp"/>
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

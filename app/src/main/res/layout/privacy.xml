@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".settings"
+    android:background="#FFFFFF">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="20dp"
+       android:id="@+id/line1"
+       android:layout_centerHorizontal="true"
+       android:textColor="@color/black"
+       android:text="Privacy Policy
+Last Updated: [Date]
+"/>
+
+   <TextView
+       android:id="@+id/line2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/line1"
+       android:layout_centerInParent="true"
+       android:text=" INTRODUCTION
+Welcome to SaleSpot. At SaleSpot, we respect your privacy and want to make it clear that we do not collect any personal information when you use our mobile application. By accessing or using the Service, you acknowledge that no personal information is collected.
+
+"
+       android:textColor="@color/black"
+       android:textSize="18dp" />
+
+   <TextView
+       android:id="@+id/line3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/line2"
+       android:layout_centerInParent="true"
+       android:text=" INFORMATION WE DO NOT COLLECT
+We do not collect any personal information from users of our Service.
+
+"
+       android:textColor="@color/black"
+       android:textSize="18dp" />
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="18dp"
+       android:id="@+id/line4"
+       android:layout_centerHorizontal="true"
+       android:layout_below="@id/line3"
+       android:textColor="@color/black"
+       android:text=" HOW WE USE YOUR INFORMATION
+Since we do not collect any personal information, there is no information to use or disclose.
+
+"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="20dp"
+       android:id="@+id/line5"
+       android:layout_centerHorizontal="true"
+       android:layout_below="@id/line4"
+       android:textColor="@color/black"
+       android:text=" YOUR CHOICES
+You do not need to take any action regarding your personal information because we do not collect any.
+
+"/>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="20dp"
+          android:id="@+id/line6"
+          android:layout_centerHorizontal="true"
+          android:layout_below="@id/line5"
+          android:textColor="@color/black"
+          android:text=" SECURITY
+   Although we do not collect any personal information, we still take reasonable measures to protect your privacy when you use our Service.
+
+   "/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="20dp"
+       android:id="@+id/line7"
+       android:layout_centerHorizontal="true"
+       android:layout_below="@id/line6"
+       android:textColor="@color/black"
+       android:text=" PARTNERS
+We are an affiliate partner of Amazon. All product information is taken directly from the seller websites. These seller websites can be found after clicking on the product and then clicking “VISIT SITE”. All product information is up to date as of 00/00/0000.
+
+"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="20dp"
+       android:id="@+id/line8"
+       android:layout_centerHorizontal="true"
+       android:layout_below="@id/line7"
+       android:textColor="@color/black"
+       android:text=" LICENCES
+Our Fonts are from Google Fonts and can be found at fonts.google.com
+
+"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="20dp"
+       android:id="@+id/line9"
+       android:layout_centerHorizontal="true"
+       android:layout_below="@id/line8"
+       android:textColor="@color/black"
+       android:text=" SELLER WEBSITES
+Seller websites include amazon.com and ebay.com
+
+"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="20dp"
+       android:id="@+id/line10"
+       android:layout_centerHorizontal="true"
+       android:layout_below="@id/line9"
+       android:textColor="@color/black"
+       android:text=" CHANGES TO THIS PRIVACY POLICY
+We may update this Privacy Policy from time to time to reflect our commitment to your privacy.
+
+"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="19dp"
+       android:id="@+id/line11"
+       android:layout_centerHorizontal="true"
+       android:layout_below="@id/line10"
+       android:textColor="@color/black"
+       android:text=" CONTACT US
+If you have any questions or concerns about this Privacy Policy, please contact us at thesalespotteam@gmail.com
+
+"/>
+
+
+</RelativeLayout>
